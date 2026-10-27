@@ -1,0 +1,245 @@
+{
+  "image": "mcr.microsoft.com/devcontainers/universal:2",
+  "features": {}
+}<!DOCTYPE html>
+<html lang="de" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BMW Isetta 300 Export (Bj. 1963) | Event- & Nostalgieverleih Österreich</title>
+  
+  <!-- Google Fonts: Playfair Display (Serif) & Inter (Sans-Serif) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,600;0,700;0,900;1,600&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+  
+  <!-- Font Awesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  
+  <!-- Tailwind CSS -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            isetta: {
+              ivory: '#FDFBF7',
+              petrol: '#2C5F63',
+              'petrol-dark': '#1F474A',
+              gold: '#C59B27',
+              dark: '#222222'
+            }
+          },
+          fontFamily: {
+            serif: ['"Playfair Display"', 'serif'],
+            sans: ['"Inter"', 'sans-serif'],
+          }
+        }
+      }
+    }
+  </script>
+</head>
+<body class="bg-isetta-ivory text-stone-800 font-sans antialiased selection:bg-isetta-petrol selection:text-white">
+
+  <!-- ==================== HEADER ==================== -->
+  <header class="sticky top-0 z-40 bg-isetta-ivory/90 backdrop-blur-md border-b border-stone-200">
+    <div class="max-w-7xl mx-auto px-5 sm:px-8 h-20 flex items-center justify-between">
+      
+      <!-- Brand / Logo -->
+      <a href="#" class="flex items-center gap-3">
+        <div class="w-10 h-10 rounded-full bg-isetta-petrol text-white flex items-center justify-center shadow-sm">
+          <i class="fa-solid fa-car-side"></i>
+        </div>
+        <div>
+          <span class="font-serif font-black text-xl text-isetta-dark tracking-tight block leading-none">
+            Isetta Nostalgie
+          </span>
+          <span class="text-[10px] tracking-widest uppercase font-semibold text-isetta-gold">Baujahr 1963</span>
+        </div>
+      </a>
+
+      <!-- Direct Mail CTA -->
+      <a href="mailto:isetta.export300@gmail.com" class="hidden sm:flex items-center gap-2 px-5 py-2.5 rounded-full bg-isetta-petrol hover:bg-isetta-petrol-dark text-white text-sm font-semibold transition-colors shadow-md">
+        <i class="fa-regular fa-envelope"></i>
+        <span>isetta.export300@gmail.com</span>
+      </a>
+      <!-- Mobile Mail Icon -->
+      <a href="mailto:isetta.export300@gmail.com" class="sm:hidden w-10 h-10 flex items-center justify-center rounded-full bg-isetta-petrol text-white shadow-md">
+        <i class="fa-regular fa-envelope"></i>
+      </a>
+
+    </div>
+  </header>
+
+  <!-- ==================== HERO SEKTION (Text Links, Bild Rechts) ==================== -->
+  <section class="py-12 sm:py-20 max-w-7xl mx-auto px-5 sm:px-8">
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-10 md:gap-16 items-center">
+      
+      <!-- Text Links -->
+      <div class="order-2 md:order-1 flex flex-col items-start">
+        <div class="inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-isetta-gold/10 text-isetta-gold text-xs font-bold uppercase tracking-wider mb-6">
+          <i class="fa-solid fa-star"></i>
+          Der Kult-Klassiker
+        </div>
+        <h1 class="font-serif text-4xl sm:text-5xl lg:text-6xl font-black text-isetta-dark leading-tight mb-6">
+          Miete den Charme der 50er Jahre.
+        </h1>
+        <h2 class="text-xl sm:text-2xl text-isetta-petrol font-serif italic mb-6">
+          BMW Isetta 300 Export (Baujahr 1963)
+        </h2>
+        <p class="text-stone-600 text-base sm:text-lg leading-relaxed mb-8">
+          Das perfekte Nostalgie-Highlight! Unsere Isetta ist die ideale Requisite für unvergessliche Hochzeiten, professionelle Werbedrehs und exklusive Fotoshootings. Setzen Sie ein Statement mit purem Vintage-Flair.
+        </p>
+        <a href="#anfrage" class="px-8 py-4 rounded-xl bg-isetta-petrol hover:bg-isetta-petrol-dark text-white font-semibold shadow-lg transition-transform hover:-translate-y-0.5 flex items-center gap-3">
+          <span>Preis auf Anfrage anfordern</span>
+          <i class="fa-solid fa-arrow-right"></i>
+        </a>
+      </div>
+
+      <!-- Bild Rechts -->
+      <div class="order-1 md:order-2 w-full h-[400px] md:h-[550px] relative">
+        <img src="IMG_4628 (1)_2.jpg" alt="BMW Isetta Front" class="w-full h-full object-cover rounded-3xl shadow-xl">
+        <!-- Dekoratives Element -->
+        <div class="absolute -bottom-6 -left-6 w-32 h-32 bg-isetta-ivory border-8 border-isetta-petrol rounded-full hidden md:flex items-center justify-center shadow-lg">
+          <span class="font-serif font-bold text-isetta-petrol text-center leading-tight">
+            <span class="block text-2xl">1963</span>
+            <span class="block text-xs uppercase tracking-widest">Original</span>
+          </span>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ==================== SEKTION 2: ERLEBEN (Bild Links, Text Rechts) ==================== -->
+  <section class="py-16 sm:py-24 bg-white border-y border-stone-100">
+    <div class="max-w-7xl mx-auto px-5 sm:px-8 grid grid-cols-1 md:grid-cols-2 gap-10 md:gap-16 items-center">
+      
+      <!-- Bild Links -->
+      <div class="w-full h-[350px] md:h-[500px]">
+        <img src="IMG_4624_2.jpg" alt="Isetta Innenraum" class="w-full h-full object-cover rounded-3xl shadow-xl">
+      </div>
+
+      <!-- Text Rechts -->
+      <div class="flex flex-col items-start">
+        <span class="text-xs font-bold uppercase tracking-wider text-isetta-gold mb-2">Hineinsetzen & Erleben</span>
+        <h3 class="font-serif text-3xl sm:text-4xl font-bold text-isetta-dark mb-5">
+          Einsteigen durch die legendäre Fronttür
+        </h3>
+        <p class="text-stone-600 text-base leading-relaxed mb-5">
+          Das Highlight für jedes Fotoshooting: Die große, nach vorne aufklappbare Tür mit mitschwingendem Lenkrad bietet nicht nur bequemen Einstieg, sondern ist auch ein unverwechselbares Fotomotiv. Im Inneren erwartet Sie das gemütliche, authentische Karomuster der 60er Jahre.
+        </p>
+        <p class="text-stone-600 text-base leading-relaxed mb-8">
+          Für das perfekte Nostalgie-Erlebnis können wir nach einer kurzen Einschulung den Motor am Privatgelände starten, damit Sie die Isetta für Ihre Kamera-Aufnahmen stilvoll platzieren können.
+        </p>
+        
+        <div class="inline-block p-4 rounded-xl bg-isetta-ivory border border-stone-200">
+          <span class="block font-serif text-xl font-bold text-isetta-petrol mb-1">Preis auf Anfrage</span>
+          <span class="text-xs text-stone-500">Wir erstellen gerne ein individuelles Angebot für Ihr Event.</span>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ==================== SEKTION 3: DETAILS (Text Links, Bild Rechts) ==================== -->
+  <section class="py-16 sm:py-24 max-w-7xl mx-auto px-5 sm:px-8">
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-10 md:gap-16 items-center">
+      
+      <!-- Text Links (Mobile: Zweite Position) -->
+      <div class="order-2 md:order-1 flex flex-col items-start">
+        <span class="text-xs font-bold uppercase tracking-wider text-isetta-gold mb-2">Liebe zum Detail</span>
+        <h3 class="font-serif text-3xl sm:text-4xl font-bold text-isetta-dark mb-5">
+          Der perfekte Hingucker
+        </h3>
+        <p class="text-stone-600 text-base leading-relaxed mb-6">
+          Der Charme liegt in den Details. Auf dem verchromten Gepäckträger im Heck thront unser originaler Vintage-Holzkoffer. Er verleiht der Isetta nicht nur den perfekten Reise-Look der 50er Jahre, sondern lässt sich auf Wunsch auch hervorragend in Ihr Event einbinden.
+        </p>
+        <p class="text-stone-600 text-base leading-relaxed">
+          Nutzen Sie den Koffer als originelle Fotorequisite, präsentieren Sie darin Getränke, Sekt oder stilvolle Dekorationselemente für Ihre Hochzeitsgäste oder das Filmteam.
+        </p>
+      </div>
+
+      <!-- Bild Rechts (Mobile: Erste Position) -->
+      <div class="order-1 md:order-2 w-full h-[350px] md:h-[500px]">
+        <img src="IMG_4626_2.jpg" alt="Isetta Heck mit Koffer" class="w-full h-full object-cover rounded-3xl shadow-xl">
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ==================== FAQ SEKTION ==================== -->
+  <section class="py-16 sm:py-24 bg-white border-y border-stone-100">
+    <div class="max-w-4xl mx-auto px-5 sm:px-8">
+      <div class="text-center mb-12">
+        <span class="text-isetta-gold font-bold uppercase tracking-wider text-xs">Gut zu wissen</span>
+        <h2 class="font-serif text-3xl sm:text-4xl font-bold text-isetta-dark mt-2">Häufige Fragen (FAQ)</h2>
+      </div>
+      
+      <div class="space-y-6">
+        <!-- FAQ 1 -->
+        <div class="bg-isetta-ivory rounded-2xl p-6 shadow-sm border border-stone-200">
+          <h4 class="font-serif font-bold text-xl text-isetta-petrol mb-2">Darf man die Isetta selbst fahren?</h4>
+          <p class="text-stone-600 text-sm sm:text-base leading-relaxed">
+            Die Isetta wird primär als exklusives <strong>Stand- und Dekorationsobjekt</strong> ("Requisite") vermietet. Um den historischen Wert (Baujahr 1963) zu schützen und versicherungstechnische Hürden auszuschließen, sind unbegleitete Fahrten auf öffentlichen Straßen nicht vorgesehen.
+          </p>
+        </div>
+        <!-- FAQ 2 -->
+        <div class="bg-isetta-ivory rounded-2xl p-6 shadow-sm border border-stone-200">
+          <h4 class="font-serif font-bold text-xl text-isetta-petrol mb-2">Können wir den Motor für Aufnahmen starten?</h4>
+          <p class="text-stone-600 text-sm sm:text-base leading-relaxed">
+            Ja, absolut! Das nostalgische Motorengeräusch ist ein toller Effekt. Auf einem Privatgelände (z.B. Eventlocation, Hotelauffahrt) kann das Fahrzeug nach kurzer Einweisung gestartet und für perfekte Kamera-Positionen im 1. Gang bewegt werden – natürlich in unserer Begleitung.
+          </p>
+        </div>
+        <!-- FAQ 3 -->
+        <div class="bg-isetta-ivory rounded-2xl p-6 shadow-sm border border-stone-200">
+          <h4 class="font-serif font-bold text-xl text-isetta-petrol mb-2">Passt die Isetta auch in Innenräume?</h4>
+          <p class="text-stone-600 text-sm sm:text-base leading-relaxed">
+            Dank der ultrakompakten Maße (nur ca. 1,40 m Breite und 2,30 m Länge) sowie des geringen Gewichts lässt sich die Isetta problemlos durch die meisten Doppeltüren schieben. Sie ist das perfekte Highlight für Foyers oder Messehallen.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== ANFRAGE / KONTAKT ==================== -->
+  <section id="anfrage" class="py-16 sm:py-24 bg-isetta-petrol text-white">
+    <div class="max-w-4xl mx-auto px-5 sm:px-8 text-center">
+      <i class="fa-regular fa-envelope-open text-4xl text-isetta-gold mb-5"></i>
+      <h2 class="font-serif text-3xl sm:text-4xl font-bold mb-4">
+        Interesse geweckt?
+      </h2>
+      <p class="text-isetta-ivory/80 text-base sm:text-lg mb-8 max-w-2xl mx-auto">
+        Da jedes Event einzigartig ist, verzichten wir auf starre Preislisten. Schreiben Sie uns einfach Ihre Wünsche, den Ort und das Datum – wir melden uns umgehend mit einem individuellen Angebot ("Preis auf Anfrage").
+      </p>
+      
+      <div class="bg-white/10 backdrop-blur-sm border border-white/20 p-6 sm:p-10 rounded-3xl inline-block w-full max-w-lg mx-auto shadow-2xl">
+        <p class="text-sm text-isetta-ivory mb-2 uppercase tracking-widest font-semibold">Direktkontakt per E-Mail</p>
+        <a href="mailto:isetta.export300@gmail.com" class="font-serif text-xl sm:text-2xl font-bold text-white hover:text-isetta-gold transition-colors break-all">
+          isetta.export300@gmail.com
+        </a>
+        
+        <div class="mt-8 pt-8 border-t border-white/20">
+          <p class="text-sm mb-4">Oder senden Sie uns direkt eine vorbereitete Anfrage:</p>
+          <a href="mailto:isetta.export300@gmail.com?subject=Mietanfrage%20BMW%20Isetta&body=Hallo%20Isetta-Team%2C%0A%0Aich%20interessiere%20mich%20f%C3%BCr%20ein%20individuelles%20Angebot.%0A%0A- Art%20des%20Events%20(Hochzeit%2C%20Shooting%2C%20etc.)%3A%20%0A-%20Datum%3A%20%0A-%20Ort%20%2F%20PLZ%3A%20%0A-%20Name%3A%20%0A-%20Telefon%3A%20%0A%0ABitte%20um%20R%C3%BCckmeldung.%20Danke!" class="inline-block w-full px-6 py-4 rounded-xl bg-isetta-ivory text-isetta-petrol font-bold shadow-md hover:bg-white transition-colors">
+            E-Mail Vorlage öffnen
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== FOOTER / IMPRESSUM ==================== -->
+  <footer class="bg-isetta-dark text-stone-400 py-12">
+    <div class="max-w-7xl mx-auto px-5 sm:px-8 grid grid-cols-1 md:grid-cols-2 gap-8 text-sm leading-relaxed">
+      
+      <div>
+        <h4 class="text-white font-serif font-bold text-lg mb-3">BMW Isetta Nostalgie Verleih</h4>
+        <p class="mb-4 max-w-md">
+          Verleih von beweglichen Sachen (Requisitenverleih) für Hochzeiten, Film- und Fotoproduktionen in Österreich. Individuelle Angebote auf Anfrage.
+        </p>
+        <p>&copy; <span id="year"></span> Alle Rechte vorbehalten.</p>
+      </div>
+
+      <div class="md:text-right">
